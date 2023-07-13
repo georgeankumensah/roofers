@@ -1,0 +1,48 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 27px 150px;
+    background-color: white;
+    font-family: 'Roboto Condensed', sans-serif;}
+
+nav img{
+    width: 157px;
+    height:33px;
+}
+
+.navlinks{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 73px;
+  gap: 30px;
+}
+.navlinks a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+nav>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav>div>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact>div{
+    margin-right: 30px;
+    display: flex;
+    gap: 6px;
+}
+.contact button{
+    width: 175px;
+    color: white;
+    padding: 12px 30px ;
+    border: none;
+    background: linear-gradient(90deg, #C62813 0%, #D06051 100%);
+}

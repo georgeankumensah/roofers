@@ -1,0 +1,80 @@
+.Hero{
+    background-color: #AB1E0B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 150px ;
+    font-family: Roboto Condensed;
+
+}
+.hero-text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+   
+}
+.hero-text h4{
+font-family: Roboto Condensed;
+font-size: 19px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 3.04px;
+text-transform: uppercase;
+}
+.hero-text > h1{
+width:623px;
+color: #FFF;
+font-family: Roboto Condensed;
+font-size: 68px;
+font-style: normal;
+font-weight: 700;
+line-height: 112%; /* 76.16px */
+letter-spacing: 1.36px;
+text-transform: uppercase;
+}
+.hero-text span{
+display: flex;
+flex-direction: row;
+gap: 10px;
+align-items: center;
+}
+.checkers{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* form */
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.90);
+    padding: 40px;
+    color: #313131;
+font-family: Roboto Condensed;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.72px;
+text-transform: uppercase;
+}
+.form h1{
+    
+    font-size: 36px;
+}
+.form form{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.field label{
+    color: #313131;
+font-family: Roboto Condensed;
+font-size: 14px;
+font-style: normal;
+}
